@@ -1,10 +1,10 @@
 {
-  "name": "webpackDevServer-starter",
+  "name": "react-content-scroll",
   "version": "0.1.0",
-  "description": "/dev/null",
-  "main": "server.js",
+  "description": "Provide a customizable scrollbar to your overflow content.",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [
     "react",
@@ -12,11 +12,13 @@
   ],
   "author": "Towry Wang",
   "license": "MIT",
-  "scripts": {
-    "start": "node server.js"
-  },
   "dependencies": {
-    "react": "^0.13.2",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.16.0",
+    "object-assign": "^4.0.1",
+    "style-loader": "^0.12.3",
     "webpack": "^1.8.4",
     "webpack-dev-server": "^1.8.0",
     "react-hot-loader": "^1.1.5",

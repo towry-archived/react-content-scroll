@@ -5,7 +5,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/dev-server',
-    './scripts/index'
+    './test/index'
   ],
   devServer: {
     contentBase: './build',
@@ -28,9 +28,12 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.jsx?$/,
+      test: /\.js$/,
       loaders: ['react-hot', 'babel'],
-      include: path.join(__dirname, 'scripts')
+      exclude: /node_modules\//
+    }, {
+      test: /\.css$/, 
+      loaders: ['style', 'css'],
     }]
   }
 }

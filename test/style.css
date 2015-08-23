@@ -1,0 +1,53 @@
+#sidebar {
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  overflow: hidden;
+  width: 200px;
+}
+
+.rcs_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  overflow: hidden;
+  width: 200px;
+}
+
+#preview {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  right: 0;
+  bottom: 0;
+
+  overflow-y: scroll;
+  padding-left: 20px;
+}
+
+#sidebar {
+  border-right: 1px solid #000;
+}
+
+.rcs_scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: red;
+  color: #fff;
+}
+
+.rcs_grip_anchor {
+  background: green;
+}
+
+.rcs_grip {
+  left: 0;
+  right: 0;
+}
