@@ -9,6 +9,10 @@
   "keywords": [
     "react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towry/react-content-scroll.git"
+  },
   "author": "Towry Wang",
   "license": "MIT",
   "dependencies": {
